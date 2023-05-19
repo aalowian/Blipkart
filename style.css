@@ -1,0 +1,128 @@
+aside {
+  border: 14px solid black;
+  background: linear-gradient(to top left, #0b6d46, #7dea6c);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(65, 155, 234);
+  margin-top: 4px;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.image {
+  margin-top: 8px;
+}
+
+h3::before {
+  content: "Offer Sale";
+  background-color: rgb(255, 64, 0);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px 4px;
+  position: absolute;
+  top: 36px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 12px;
+}
+
+.ship {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(0, 6, 129);
+  text-transform: uppercase;
+  line-height: 0.25;
+  margin-top: 7px;
+  margin-bottom: 22px;
+}
+
+.color {
+  background-color: black;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-orange {
+  background-color: rgb(255, 166, 0);
+}
+
+.subclass {
+  margin-left: 15px;
+}
+
+.descr {
+  padding: 8px;
+}
+
+p {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(78, 121, 215);
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+h4 {
+  font-size: 26px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+li {
+  font-size: 14px;
+  list-style: square;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+}
+
+button {
+  background-color: rgb(44, 224, 227);
+  text-decoration-color: black;
+  font-size: 34px;
+  font-weight: bold;
+  width: 210px;
+  height: 65px;
+}
+
+button:hover {
+  background-color: rgb(78, 121, 215);
+  cursor: pointer;
+}
